@@ -1,4 +1,4 @@
-def find_boy(log: str, count: int) -> list[str]:
+def find_bot(log: str, count: int) -> list[str]:
   ip = []
   bots = []
   [ip.append(i.split(",")[1] for i in log]
